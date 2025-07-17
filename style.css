@@ -1,0 +1,496 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif !important;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: none;
+    outline: none;
+    background: #478c0d;
+    border-radius: 10px;
+}
+
+/* Header */
+
+
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navigation {
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 320px;
+    margin: 5px;
+}
+.navigation li {
+    margin: 10px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.navigation a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+.logo {
+    /* position: relative;
+    right: 100px; */
+    margin-right: 290px;
+    
+}
+
+/* Front */
+
+.front {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("https://code-mint.com/assets/svgs/intro-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 490px;
+}
+
+.t1 {
+    font-size: 2.9rem;
+}
+.t1 span {
+    color: #478c0d;
+}
+.t2 {
+    font-size: 2.7rem;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.t3 {
+    font-size: 1.3rem;
+    color: dimgrey;
+}
+
+/* Services */
+.services {
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.first div {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 100px;
+}
+.first {
+    position: relative;
+    left: 50%;
+}
+.first div h2 {
+    margin-top: 5px;
+    font-size: 40px;
+    color: rgb(27, 26, 26);
+}
+.first div img {
+    width: 30px;
+}
+.first h6 {
+    font-size: 15px;
+    position: relative;
+    right: 40px;
+    color: rgb(160, 158, 158);
+}
+
+.can {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.can div {
+    background-color: #fff;
+    width: 24em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid rgb(239, 235, 235);
+    text-align: center;
+    cursor: pointer;
+}
+.can div:hover {
+    border-color: black;
+} 
+
+.can div p {
+    margin: 10px;
+}
+
+/* WorkProcess */
+
+.workprocess {
+    overflow: hidden;
+    background-color: #f2f7ee;
+    width: 100%;
+}
+.workprocess .name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    position: relative;
+    top: 40px;
+}
+.workprocess .name img {
+    width: 30px;
+}
+.workprocess .name h2 {
+    position: relative;
+    /* top: 5px; */
+    font-weight: bold;
+    font-size: 30px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #fff;
+    height: 35em;
+    width: 24em;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(233, 229, 229);
+    margin-bottom: 10px;
+    
+}
+.card:hover {
+    border-color: black;
+}
+.card ul li {
+    margin-left: 40px;
+    word-spacing: 3px;
+    line-height: 25px;
+    font-size: 20px;
+    color: rgb(77, 76, 76);
+}
+.workprocess .content .card div {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.workprocess .content .card div img {
+    display: block;
+    height: 26px;
+    width: 26px;
+    max-width: 26px;
+    max-height: 26px;
+    background-color: #f2f7ee;;
+}
+.workprocess .content .card div h2 {
+    margin-left: 10px;
+}
+
+/* Products */
+
+.products {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.products div{
+    width: 50%;
+}
+.products .img-product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products .img-product img {
+    border: 1px solid rgb(241, 237, 237);
+    width: 30%;
+    margin: 7px;
+    margin-right: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.products .img-product img:hover {
+    border-color: black;
+}
+.products .para {
+    margin-top: 3.5%;
+    top: 0;
+    z-index: 1111;
+}
+.products .para .tit {
+    display: flex;
+}
+.products .para .tit img {
+    width: 7%;
+}
+.products .para .des p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 40px;    
+}
+.products .para .des span {
+    color: #43880a;
+}
+
+
+/* Contact Us */
+
+.contact {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+.contact .info {
+    background-color: #478c0d;
+    color: white;
+    width: 45%;
+    border-top-right-radius: 40px;
+}
+.contact .info .i {
+    margin: 40px 40px 40px 0;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.contact .info hr {
+    margin: 0 150px 0 20px;
+}
+.contact .info div {
+    display: flex;
+    margin: 60px;
+    font-size: 20px;
+}
+.contact .info div img {
+    margin-right: 20px;
+    width: 4%;
+}
+.contact .info .em {
+    margin-top: 130px;
+}
+.contact .info .ph {
+    margin-top: 100px;
+}
+#pic3 {
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+    width: 200px;
+    opacity: 0.1;
+}
+#pic2 {
+    position: relative;
+    font-size: 300px;
+    left: 320px;
+    bottom: 120px;
+    width: 10rem;
+    opacity: 0.1;
+}
+#pic1 {
+    opacity: 0.1;
+    position: relative;
+    left: 540px;
+    bottom: 240px;
+    width: 100px;
+}
+
+/* Forms */
+
+form {
+    width: 45%;
+}
+.email {
+    display: flex;
+}
+.email img {
+    position: relative;
+    left: 100px;
+}
+.email p {
+    display: block;
+    position: relative;
+    left: 100px;
+    margin-top: 5px;
+    font-size: 25px;
+    color: #a7a7a7;
+    transition: font-size 1.8s ease 0s;
+    text-wrap: pretty;
+    max-width: 62ch;
+}
+.form-input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 20px 0px;
+}
+input{
+    height: 36px;
+    padding-left: 2rem;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    border-radius: 6px;
+}
+label{
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+    color: #52525b;
+    pointer-events: none;
+    transition: .3s;
+    z-index: 1000000;
+}
+.icon{
+    position: absolute;
+}
+.icon img{
+   width: 30px;
+
+}
+input:focus{
+    border: 2px solid #478c0d;
+}
+input:focus ~ label{
+    color: var(#478c0d);
+    top: -2px; 
+    transform: scale(0.8) translateY(-50%) translateX(-10px); 
+    background: #fff; 
+    padding: 0 5px; 
+    z-index: 1; 
+}
+textarea{
+    outline: none;
+    background: none;
+    border: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 8px;
+    width: 100%;
+    resize: vertical;
+    font-size: 20px;
+    height: 234px;
+}
+button {
+    float: right;
+    padding: 10px 20px;
+    background-color: #478c0d;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: transparent;
+    color: #478c0d;;
+}
+@media (max-width: 750px) {
+    .info{
+     display: none;
+    }
+     form{
+      width: 100%;
+     }
+ }
+ .countries {
+    display: flex;
+ }
+ select {
+    width: 10%;
+ }
+
+
+/* footer */
+
+footer {
+    background-color: #478c0d;
+    height: 35vh;
+    margin-top: 6%;
+    padding-top: 40px;
+}
+.p1 {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo p{
+color: white;
+font-size: 1.3rem;
+margin-top: 5px;
+}
+.footer-links p{
+margin-bottom: 20px;
+opacity: 0.3;
+}
+td {
+    color: white;
+}
+.s1 {
+    position: relative;
+    left: 10px;
+}
+.s2 {
+    position: relative;
+    left: 10px;
+}
+.row2 {
+    position: relative;
+    top: 10px;
+}
+td a {
+    text-decoration: none;
+    color: white;
+}
+hr {
+    margin-top: 50px;
+}
+.p2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.p2 div {
+    display: flex;
+}
+.p2 p{
+    color: white;
+}
+.p2 div a p img{
+margin-right: 20px;
+margin-left: 10px;
+position: relative;
+left: 5px;
+bottom: 5px;
+}
+.p2 div a p {
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+#so1 {
+    margin-right: 10px;
+}
+#so2 {
+    margin-right: 10px;
+}
+#so3 {
+    margin-right: 10px;
+}
